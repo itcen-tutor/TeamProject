@@ -6,11 +6,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 
 @Controller
-public class IndexController {
+public class JaehoController {
 
-    @GetMapping("/")
-    public @ResponseBody String index() {
-        return "Hello, World!!";
+    @GetMapping("/Jaeho")
+    public @ResponseBody String Jaeho() {
+        return "Hello, Jaeho!!!";
     }
+    
+
 
 }

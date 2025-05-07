@@ -4,13 +4,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-
 @Controller
-public class IndexController {
+public class Chaewon121Controller {
 
-    @GetMapping("/")
-    public @ResponseBody String index() {
-        return "Hello, World!!";
+    @GetMapping("/chaewon121")
+    public @ResponseBody String itenstud() {
+        return "Hello, chaewon121!!";
     }
-
+    
 }
