@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class itcenStudController {
-    @GetMapping("/itcenstud")
-    public @ResponseBody String itcenstud() {
-        return "Hello, itcenstud";
+public class MirageoasisController {
+    @GetMapping("/mirage")
+    public @ResponseBody String mirage() {
+        return "Hello, Mirage!!";
     }
 }
