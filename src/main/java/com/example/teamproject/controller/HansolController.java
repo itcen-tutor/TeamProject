@@ -4,13 +4,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-
+// 한솔 컨트롤러 추가 250507 이동진
 @Controller
-public class IndexController {
+public class HansolController {
 
-    @GetMapping("/")
-    public @ResponseBody String index() {
-        return "Hello, World!!";
+    @GetMapping("/hansol")
+    public @ResponseBody String hansol() {
+        return "Hello, Hansol!!";
     }
-
+    
 }
